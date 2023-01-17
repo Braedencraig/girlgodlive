@@ -8,26 +8,92 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   const dates = [
-    { date: "Mar 8", venue: "Bell House", city: "Brooklyn, NY" },
-    { date: "Mar 9", venue: "Richmond Music Hall", city: "Richmond, VA" },
-    { date: "Mar 12", venue: "Tuffy's Music Box", city: "Orlando, FL" },
-    { date: "Mar 14", venue: "Aisle 5", city: "Atlanta, GA" },
-    { date: "Mar 15", venue: "3rd & Lindsey", city: "Nashville, TN" },
-    { date: "Mar 16", venue: "El Club", city: "Detroit, MI" },
-    { date: "Mar 18", venue: "X-ray Arcade", city: "Milwaukee, WI" },
-    { date: "Mar 19", venue: "Bottom Lounge", city: "Chicago, IL" },
-    { date: "Mar 21", venue: "Old Rock House", city: "St. Louis, MO" },
-    { date: "Mar 22", venue: "Gabe's", city: "Iowa City, IA" },
-    { date: "Mar 26", venue: "Cervantes Other Side", city: "Denver, CO" },
-    { date: "Mar 28", venue: "Crescent Ballroom", city: "Pheonix, AZ" },
-    { date: "Mar 29", venue: "Soda Bar", city: "San Diego, CA" },
+    {
+      date: "Mar 8",
+      venue: "Bell House",
+      city: "Brooklyn, NY",
+      link: "https://www.eventbrite.com/e/girl-god-tickets-504907771737",
+    },
+    {
+      date: "Mar 9",
+      venue: "Richmond Music Hall",
+      city: "Richmond, VA",
+      link: "https://bit.ly/GirlGod3-9",
+    },
+    {
+      date: "Mar 12",
+      venue: "Tuffy's Music Box",
+      city: "Orlando, FL",
+      link: "https://www.ticketweb.com/event/girl-god-tuffys-music-box-tickets/12763095",
+    },
+    {
+      date: "Mar 14",
+      venue: "Aisle 5",
+      city: "Atlanta, GA",
+      link: "https://seetickets.us/girlgoda5",
+    },
+    // { date: "Mar 15", venue: "3rd & Lindsey", city: "Nashville, TN", link: "" },
+    {
+      date: "Mar 16",
+      venue: "El Club",
+      city: "Detroit, MI",
+      link: "https://link.dice.fm/S1b5d731b3b6",
+    },
+    {
+      date: "Mar 18",
+      venue: "X-ray Arcade",
+      city: "Milwaukee, WI",
+      link: "https://www.ticketweb.com/event/girl-god-x-ray-arcade-tickets/12846495?pl=kickstand",
+    },
+    {
+      date: "Mar 19",
+      venue: "Bottom Lounge",
+      city: "Chicago, IL",
+      link: "https://www.ticketweb.com/event/girl-god-bottom-lounge-tickets/12846475?pl=kickstand",
+    },
+    {
+      date: "Mar 21",
+      venue: "Old Rock House",
+      city: "St. Louis, MO",
+      link: "https://www.etix.com/ticket/p/7281483/girl-god-lake-saint-louis-old-rock-house-mjp",
+    },
+    {
+      date: "Mar 22",
+      venue: "Gabe's",
+      city: "Iowa City, IA",
+      link: "https://www.ticketweb.com/event/girl-god-gabes-tickets/12846365?pl=kickstand",
+    },
+    {
+      date: "Mar 26",
+      venue: "Cervantes Other Side",
+      city: "Denver, CO",
+      link: "http://bit.ly/GirlGodCervs",
+    },
+    {
+      date: "Mar 28",
+      venue: "Crescent Ballroom",
+      city: "Pheonix, AZ",
+      link: "https://www.ticketweb.com/event/girl-god-crescent-ballroom-tickets/12779255?pl=crescent",
+    },
+    {
+      date: "Mar 29",
+      venue: "Soda Bar",
+      city: "San Diego, CA",
+      link: "https://link.dice.fm/S614b9fb511d",
+    },
     {
       date: "Apr 2",
       venue: "Swedish American Hall",
       city: "San Francisco, CA",
+      link: "https://www.ticketweb.com/event/girl-god-swedish-american-hall-tickets/12816075",
     },
-    { date: "Apr 4", venue: "Hawthorne Theatre", city: "Portland, OR" },
-    { date: "Apr 5", venue: "The Crocodile", city: "Seattle, WA" },
+    // { date: "Apr 4", venue: "Hawthorne Theatre", city: "Portland, OR" },
+    {
+      date: "Apr 5",
+      venue: "The Crocodile",
+      city: "Seattle, WA",
+      link: "https://www.ticketweb.com/event/girl-god-the-crocodile-tickets/12815625?pl=crocodile",
+    },
   ];
   return (
     <>
@@ -60,7 +126,9 @@ export default function Home() {
                 <div className={styles.dateText}>{date.date}</div>
                 <div className={styles.dateText}>{date.venue}</div>
                 <div className={styles.dateText}>{date.city}</div>
-                <a href="http://">Tickets</a>
+                <a href={date.link} target="_blank" rel="noopener noreferrer">
+                  Tickets
+                </a>
               </div>
             );
           })}
