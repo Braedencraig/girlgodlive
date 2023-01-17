@@ -87,7 +87,7 @@ export default function Home() {
       city: "San Francisco, CA",
       link: "https://www.ticketweb.com/event/girl-god-swedish-american-hall-tickets/12816075",
     },
-    // { date: "Apr 4", venue: "Hawthorne Theatre", city: "Portland, OR" },
+    { date: "Apr 4", venue: "Hawthorne Theatre", city: "Portland, OR" },
     {
       date: "Apr 5",
       venue: "The Crocodile",
@@ -126,9 +126,12 @@ export default function Home() {
                 <div className={styles.dateText}>{date.date}</div>
                 <div className={styles.dateText}>{date.venue}</div>
                 <div className={styles.dateText}>{date.city}</div>
-                <a href={date.link} target="_blank" rel="noopener noreferrer">
-                  Tickets
-                </a>
+                {date.link && (
+                  <a href={date.link} target="_blank" rel="noopener noreferrer">
+                    Tickets
+                  </a>
+                )}
+                {!date.link && <a>TBD</a>}
               </div>
             );
           })}
