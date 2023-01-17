@@ -9,6 +9,18 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   const dates = [
     {
+      date: "Feb 11",
+      venue: "Studio K",
+      city: "Washington, DC",
+      link: "https://www.kennedy-center.org/whats-on/explore-by-genre/comedy/2022-2023/girl-god/",
+    },
+    {
+      date: "Feb 25",
+      venue: "Biltmore Cabaret",
+      city: "Vancouver, BC",
+      link: "https://jflvancouver.com/show/girl-god-biltmore/",
+    },
+    {
       date: "Mar 8",
       venue: "Bell House",
       city: "Brooklyn, NY",
@@ -87,7 +99,12 @@ export default function Home() {
       city: "San Francisco, CA",
       link: "https://www.ticketweb.com/event/girl-god-swedish-american-hall-tickets/12816075",
     },
-    { date: "Apr 4", venue: "Hawthorne Theatre", city: "Portland, OR" },
+    {
+      date: "Apr 4",
+      venue: "Hawthorne Theatre",
+      city: "Portland, OR",
+      link: "https://www.etix.com/ticket/p/3956410/girl-god-portland-hawthorne-theatre",
+    },
     {
       date: "Apr 5",
       venue: "The Crocodile",
