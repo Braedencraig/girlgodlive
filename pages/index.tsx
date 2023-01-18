@@ -84,7 +84,7 @@ export default function Home() {
     {
       date: "Mar 28",
       venue: "Crescent Ballroom",
-      city: "Pheonix, AZ",
+      city: "Phoenix, AZ",
       link: "https://www.ticketweb.com/event/girl-god-crescent-ballroom-tickets/12779255?pl=crescent",
     },
     {
