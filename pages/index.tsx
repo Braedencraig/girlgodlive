@@ -44,7 +44,12 @@ export default function Home() {
       city: "Atlanta, GA",
       link: "https://seetickets.us/girlgoda5",
     },
-    // { date: "Mar 15", venue: "3rd & Lindsey", city: "Nashville, TN", link: "" },
+    {
+      date: "Mar 15",
+      venue: "Zanies",
+      city: "Nashville, TN",
+      link: "https://www.etix.com/ticket/p/7225690/girl-god-nashville-zanies-comedy-club",
+    },
     {
       date: "Mar 16",
       venue: "El Club",
