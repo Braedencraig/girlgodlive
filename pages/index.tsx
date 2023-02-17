@@ -116,6 +116,12 @@ export default function Home() {
       city: "Seattle, WA",
       link: "https://www.ticketweb.com/event/girl-god-the-crocodile-tickets/12815625?pl=crocodile",
     },
+    {
+      date: "Apr 18",
+      venue: "The Elysian Theater",
+      city: "Los Angeles, CA",
+      link: "https://www.elysiantheater.com/shows/girlgod",
+    },
   ];
   return (
     <>
