@@ -87,10 +87,10 @@ export default function Home() {
       link: "http://bit.ly/GirlGodCervs",
     },
     {
-      date: "Mar 28",
-      venue: "Crescent Ballroom",
+      date: "Mar 27",
+      venue: "Stir Crazy Comedy Club",
       city: "Phoenix, AZ",
-      link: "https://www.ticketweb.com/event/girl-god-crescent-ballroom-tickets/12779255?pl=crescent",
+      link: "https://stircrazycomedyclub.com/girl-god-4296",
     },
     {
       date: "Mar 29",
