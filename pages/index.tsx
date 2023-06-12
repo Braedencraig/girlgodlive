@@ -9,46 +9,10 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   const dates = [
     {
-      date: "Mar 26",
-      venue: "Cervantes Other Side",
-      city: "Denver, CO",
-      link: "http://bit.ly/GirlGodCervs",
-    },
-    {
-      date: "Mar 27",
-      venue: "Stir Crazy Comedy Club",
-      city: "Phoenix, AZ",
-      link: "https://stircrazycomedyclub.com/girl-god-4296",
-    },
-    {
-      date: "Mar 29",
-      venue: "Soda Bar",
-      city: "San Diego, CA",
-      link: "https://link.dice.fm/S614b9fb511d",
-    },
-    {
-      date: "Apr 2",
-      venue: "Swedish American Hall",
-      city: "San Francisco, CA",
-      link: "https://www.ticketweb.com/event/girl-god-swedish-american-hall-tickets/12816075",
-    },
-    {
-      date: "Apr 4",
-      venue: "Hawthorne Theatre",
-      city: "Portland, OR",
-      link: "https://www.etix.com/ticket/p/3956410/girl-god-portland-hawthorne-theatre",
-    },
-    {
-      date: "Apr 5",
-      venue: "The Crocodile",
-      city: "Seattle, WA",
-      link: "https://www.ticketweb.com/event/girl-god-the-crocodile-tickets/12815625?pl=crocodile",
-    },
-    {
-      date: "Apr 8",
-      venue: "The Elysian Theater",
+      date: "Aug 4",
+      venue: "The Bourbon Room",
       city: "Los Angeles, CA",
-      link: "https://www.elysiantheater.com/shows/girlgod",
+      link: "https://www.ticketweb.com/event/girl-god-the-bourbon-room-tickets/13318508?pl=BourbonRoom",
     },
   ];
   return (
