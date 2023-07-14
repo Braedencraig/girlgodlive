@@ -9,11 +9,54 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   const dates = [
     {
-      date: "Aug 4",
-      venue: "The Bourbon Room",
-      city: "Los Angeles, CA",
-      link: "https://www.ticketweb.com/event/girl-god-the-bourbon-room-tickets/13318508?pl=BourbonRoom",
+      date: "August 21, 2023",
+      venue: "The Garrison",
+      city: "Toronto, Ont",
+      link: "https://www.showclix.com/event/girl-god-torontoo",
     },
+    {
+      date: "August 22, 2023",
+      venue: "Bar le Ritz PDB",
+      city: "Montreal, QC",
+      link: "http://blueskiesturnblack.com/show/3025",
+    },
+    {
+      date: "August 25, 2023",
+      venue: "Arts At The Armory",
+      city: "Boston, MA",
+      link: "https://thewilbur.com/armory/artist/girl-god/",
+    },
+    {
+      date: "August 26, 2023",
+      venue: "First Unitarian Church",
+      city: "Philadelphia, PA",
+      link: "https://www.etix.com/ticket/p/6584880/girl-god-philadelphia-sanctuary-at-the-first-unitarian-church",
+    },
+    {
+      date: "August 27, 2023",
+      venue: "The Bell House (Early / Late)",
+      city: "Brooklyn, NY",
+      link: "https://www.eventbrite.com/e/girl-god-tickets-677445717377",
+    },
+    {
+      date: "August 29, 2023",
+      venue: "Bottlerocket Social Hall",
+      city: "Pittsburgh, PA",
+      link: "https://www.eventbrite.com/e/bottlerocket-presents-girl-god-tickets-677479538537?aff=oddtdtcreator",
+    },
+    {
+      date: "August 31, 2023",
+      venue: "Ottobar (All Ages)",
+      city: "Baltimore, MD",
+      link: "https://www.etix.com/ticket/p/7603025",
+    },
+
+    // {
+    //   date: "Aug 4",
+    //   venue: "The Bourbon Room",
+    //   city: "Los Angeles, CA",
+    //   link: "https://www.ticketweb.com/event/girl-god-the-bourbon-room-tickets/13318508?pl=BourbonRoom",
+    // },
   ];
   return (
     <>
