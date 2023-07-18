@@ -12,7 +12,7 @@ export default function Home() {
       date: "August 21, 2023",
       venue: "The Garrison",
       city: "Toronto, Ont",
-      link: "https://www.showclix.com/event/girl-god-torontoo",
+      link: "https://www.showclix.com/event/girl-god-toronto",
     },
     {
       date: "August 22, 2023",
