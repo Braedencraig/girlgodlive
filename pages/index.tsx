@@ -9,6 +9,12 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   const dates = [
     {
+      date: "August 4, 2023",
+      venue: "The Bourbon Room",
+      city: "Los Angeles, CA",
+      link: "https://www.ticketweb.com/event/girl-god-the-bourbon-room-tickets/13318508?pl=BourbonRoom",
+    },
+    {
       date: "August 21, 2023",
       venue: "The Garrison",
       city: "Toronto, Ont",
